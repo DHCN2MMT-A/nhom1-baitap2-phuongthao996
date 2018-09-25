@@ -1,0 +1,128 @@
+nav a{
+	float: right;
+	margin-right: 10px;
+	border-right: black solid 1px
+}
+h1{
+	color: red ;
+	text-align: center;
+}
+.leftBox {
+	float: left;
+	width: 40%;
+	text-align: center;
+	height: 400px;
+}
+.leftBox img{
+	width: 200px;
+	height: 200px;
+}
+.rightBox{
+	float: right;
+	width: 60%;
+	height: 400px;
+}
+.rightBox #Child{
+	color: blue;
+}
+.rightBox #Child h3{
+color: black;
+text-align: center;
+}
+section h3{
+	text-align: center;
+	text-decoration: underline;
+}
+section p{
+	color: blue;
+}
+.box #Awards li:nth-child(even){
+
+ color: blue;
+
+}
+.box #Awards li:nth-child(odd){
+
+ color: red;
+
+}
+#PopMedia li:nth-child(even){
+
+ color: blue;
+
+}
+#PopMedia li:nth-child(odd){
+
+ color: red;
+
+}
+
+
+
+
+
+
+nav{
+    float: right;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    clear: both;
+}
+h3{
+    text-align: center;
+    color: black !important;
+    text-decoration: underline;
+}
+p{
+
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+img{
+    width: 220px;
+    height: 220px;
+    padding-left: 200px;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+.leftBox{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.box #child{
+    float:right;
+}
+
+
+.rightBox{
+    padding-left: 44%;
+    color: blue;
+}
+.centerBox{
+    padding-left: 200px;
+}
+#Awards h3{
+    padding-top: 100px;
+    text-decoration: none;
+}
+#Awards ol li:nth-of-type(odd){
+    margin-top: 0;
+    color: red;
+}
+#Awards ol li:nth-of-type(even){
+    color: blue;
+}
+#PopMedia ul li:nth-of-type(odd){
+    color: blue;
+}
+#PopMedia ul li:nth-of-type(even){
+    color: red;
+}
