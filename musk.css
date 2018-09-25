@@ -1,75 +1,10 @@
-nav a{
-	float: right;
-	margin-right: 10px;
-	border-right: black solid 1px
-}
-h1{
-	color: red ;
-	text-align: center;
-}
-.leftBox {
-	float: left;
-	width: 40%;
-	text-align: center;
-	height: 400px;
-}
-.leftBox img{
-	width: 200px;
-	height: 200px;
-}
-.rightBox{
-	float: right;
-	width: 60%;
-	height: 400px;
-}
-.rightBox #Child{
-	color: blue;
-}
-.rightBox #Child h3{
-color: black;
-text-align: center;
-}
-section h3{
-	text-align: center;
-	text-decoration: underline;
-}
-section p{
-	color: blue;
-}
-.box #Awards li:nth-child(even){
-
- color: blue;
-
-}
-.box #Awards li:nth-child(odd){
-
- color: red;
-
-}
-#PopMedia li:nth-child(even){
-
- color: blue;
-
-}
-#PopMedia li:nth-child(odd){
-
- color: red;
-
-}
-
-
-
-
-
-
 nav{
-    float: right;
+    padding-left: 700px;
 }
 h1{
+    color: red ;
     text-align: center;
     text-decoration: underline;
-    color: red;
-    clear: both;
 }
 h3{
     text-align: center;
